@@ -83,8 +83,11 @@ The **`Dockerfile`** includes all necessary dependencies, and the **`docker-comp
 ---
 
 ## 👨‍💻 Contributors
-- ✨ **Your Name**
-- ✨ **Other Team Members**
+
+- ✨ **Mariya Silviya Rehera Krus**
+- ✨ **Artem Shapiro**
+- ✨ **Viktor Hrytchenko**
+- ✨ **Andriy Sydor**
 
 ---
 
