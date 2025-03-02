@@ -100,4 +100,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-💡 **Now the formatting is clean and consistent!**
+
