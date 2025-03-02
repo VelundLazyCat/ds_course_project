@@ -83,8 +83,11 @@ The **`Dockerfile`** includes all necessary dependencies, and the **`docker-comp
 ---
 
 ## 👨‍💻 Contributors
-- ✨ **Your Name**
-- ✨ **Other Team Members**
+
+- ✨ **Mariya Silviya Rehera Krus**
+- ✨ **Artem Shapiro**
+- ✨ **Viktor Hrytchenko**
+- ✨ **Andriy Sydor**
 
 ---
 
@@ -99,4 +102,5 @@ This project is licensed under the **MIT License**.
 - ✅ For **best performance**, the dataset should be **preprocessed** before making predictions.
 
 ---
+
 
