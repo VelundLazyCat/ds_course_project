@@ -27,11 +27,13 @@ The application provides a **web-based interface** using **Streamlit**, allowing
 ```sh
 git clone https://github.com/your-repo-url
 cd customer-churn-prediction
+```
 
 ### 2️⃣ Running with Docker
 To build and run the application using **Docker**, execute the following command:
 ```sh
 docker-compose up --build
+```
 
 This will start a Streamlit application available at:
 🔗 http://localhost:8501 
@@ -42,6 +44,7 @@ If you prefer to run the application **without Docker**, execute:
 pip install poetry
 poetry install
 poetry run streamlit run app.py
+```
 
 ## 🎯 Application Usage
 1. 📂 **Upload** a CSV file containing customer data.
