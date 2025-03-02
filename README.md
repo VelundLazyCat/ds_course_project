@@ -25,8 +25,8 @@ The application provides a **web-based interface** using **Streamlit**, allowing
 
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-repo-url
-cd customer-churn-prediction
+git clone https://github.com/VelundLazyCat/ds_course_project.git
+cd ds_course_project
 ```
 
 ### 2️⃣ Running with Docker
