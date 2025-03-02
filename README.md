@@ -27,17 +27,23 @@ The application provides a **web-based interface** using **Streamlit**, allowing
 ```sh
 git clone https://github.com/your-repo-url
 cd customer-churn-prediction
-### 2️⃣ **Running with Docker**
-To build and run the application using Docker, execute the following command:
+
+### 2️⃣ Running with Docker
+To build and run the application using **Docker**, execute the following command:
+```sh
 docker-compose up --build
+
 This will start a Streamlit application available at:
 🔗 http://localhost:8501 
-### 3️⃣ **Running with Docker**
-If you prefer to run the application without Docker:
+
+### 3️⃣ Running without Docker
+If you prefer to run the application **without Docker**, execute:
+```sh
 pip install poetry
 poetry install
 poetry run streamlit run app.py
-## 🎯 **Application Usage**
+
+## 🎯 Application Usage
 1. 📂 **Upload** a CSV file containing customer data.
 2. 🏷️ **Choose a classification model** from the sidebar.
 3. 🔎 **Click on "Predict"** to get the churn prediction results.
@@ -45,7 +51,7 @@ poetry run streamlit run app.py
 
 ---
 
-## 🧠 **Machine Learning Models**
+## 🧠 Machine Learning Models
 This project includes various **machine learning models**, trained using **Scikit-learn** and **TensorFlow**:
 
 - 📌 **Random Forest Classifier**: A robust ensemble model using decision trees.
@@ -56,7 +62,7 @@ This project includes various **machine learning models**, trained using **Sciki
 
 ---
 
-## 🛠️ **Technologies Used**
+## 🛠️ Technologies Used
 - 🐍 **Python 3.10**
 - 🌍 **Streamlit**
 - 🔬 **Scikit-learn**
@@ -67,25 +73,28 @@ This project includes various **machine learning models**, trained using **Sciki
 
 ---
 
-## 📦 **Deployment**
+## 📦 Deployment
 This project is containerized using **Docker** and can be deployed easily using **Docker Compose**.  
 The **`Dockerfile`** includes all necessary dependencies, and the **`docker-compose.yml`** file simplifies the deployment process.
 
 ---
 
-## 👨‍💻 **Contributors**
+## 👨‍💻 Contributors
 - ✨ **Your Name**
 - ✨ **Other Team Members**
 
 ---
 
-## 📜 **License**
+## 📜 License
 This project is licensed under the **MIT License**.
 
 ---
 
-## ℹ️ **Additional Notes**
+## ℹ️ Additional Notes
 - ✅ **Ensure that all `.pkl` and `.keras` files are included** in the project directory before running the application.
 - ✅ If running without Docker, make sure **all dependencies** are installed using **Poetry**.
 - ✅ For **best performance**, the dataset should be **preprocessed** before making predictions.
 
+---
+
+💡 **Now the formatting is clean and consistent!**
