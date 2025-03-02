@@ -51,8 +51,9 @@ if st.button(label='Зробити передбачення ', key='predict_one'
     else:
         st.subheader(f"Результат прогнозування: Клієнт залишиться")
     if pred.get('churn_percent'):
+        proba = round(pred.get('churn_percent')[0], )
         st.subheader(
-            f"Ймовірність: {pred.get('churn_percent')[0]}%")
+            f"Ймовірність: {proba}%")
 
 
 st.sidebar.header(
